@@ -1,1 +1,25 @@
+body{
+    background-color: rgb(173, 101, 209);
+}
+
+h1{
+    padding: 2rem;
+}
+
+h1, h2{
+    font-family: champagne_limousines_bold; /* Egen hämtad font */
+}
+
+h1, h2, p{
+    color: black;
+}
+.container{
+    background-color: rgb(173, 101, 209);
+}
+
 /*Egen css*/
+
+@font-face{ 
+    font-family: champagne_limousines_bold;
+    src: url(/champagne_limousines/Champagne\ &\ Limousines\ Bold.ttf)
+}
