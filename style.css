@@ -13,13 +13,33 @@ h1, h2{
 h1, h2, p{
     color: black;
 }
+
 .container{
     background-color: rgb(173, 101, 209);
 }
 
+a{
+    color: rgb(87, 24, 119);
+}
+
+a:hover{
+    color:rgb(56, 16, 77)
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
 /*Egen css*/
 
+/*Fonten jag hämtade*/
 @font-face{ 
     font-family: champagne_limousines_bold;
     src: url(/champagne_limousines/Champagne\ &\ Limousines\ Bold.ttf)
+}
+
+/*Indentering för h2 och p tagen för https*/
+.sanna_indent{
+    margin-left: 5%;
 }
