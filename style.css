@@ -10,6 +10,7 @@ h1, h2{
     font-family: champagne_limousines_bold; /* Egen hämtad font */
 }
 
+/* För all text jag använder*/
 h1, h2, p{
     color: black;
 }
@@ -39,7 +40,7 @@ footer{
     src: url(/champagne_limousines/Champagne\ &\ Limousines\ Bold.ttf)
 }
 
-/*Indentering för h2 och p tagen för https*/
+/*Indentering för h2 texten "https" och p texten under "https" (förklaringen till https) */
 .sanna_indent{
     margin-left: 5%;
 }
