@@ -40,7 +40,7 @@ footer{
     src: url(/champagne_limousines/Champagne\ &\ Limousines\ Bold.ttf)
 }
 
-/*Indentering för h2 texten "https" och p texten under "https" (förklaringen till https) */
+/*Indentering för h2 texten "https" och p tagen (texten) under "https" (förklaringen till https) */
 .sanna_indent{
     margin-left: 5%;
 }

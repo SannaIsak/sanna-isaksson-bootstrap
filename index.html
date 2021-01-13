@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1>Begrepp inom webbutveckling</h1>
-    <div class="container">
+    <div class="container"> <!-- Class som finns i bootstrap -->
         <hr>
         <h2>Element</h2>
         <p>Element kallas alla komponenter som används när man skriver html, vilket är olika ord från syntax:en. Alltså är h1, p, div och img exempel på olika element. Dessa element har olika funktioner då h1 är för skapa en header och div är för att skapa en box, vanligen runt andra element. Oftast har element en slut- och starttag för att indikera var elementet går. 
@@ -30,12 +30,12 @@
 
     <div class="container">
         <hr>
-        <div class="row">
-            <div class="col">
+        <div class="row"> <!-- Class som finns i bootstrap -->
+            <div class="col"> <!-- Class som finns i bootstrap -->
                 <h2>ID</h2>
                 <p>ID är till för att ge element olika egenskaper. Det är inte faktiskt ID attributet som ändrar på elementet men i css:en kan man skriva ID namnet och därifrån ändra på elementets egenskaper. Det namnet man väljer för ett ID attribut kan endast användas en gång i hela HTML dokumentet till skillnad från en class, vilket vi kommer in på senare. Du ger ett element ett ID genom att skriva (se bild 2) och du ändrar på det i css:n genom att skriva (se bild 1).
                 </p>
-                <img class="figure-img" src="Bilder/id_attribute2.png">
+                <img class="figure-img" src="Bilder/id_attribute2.png"> <!-- Class som finns i bootstrap -->
                 <img class="figure-img" src="Bilder/id_attribute.png">
             </div>
             <div class="col">
@@ -66,7 +66,7 @@
         <hr>
         <h2>HTTP</h2>
         <p>Http står för Hypertext Transfer Protocol och den jobbar i det sjunde lagret av OSI-modellen. Det sjunde lagret är applikationer som är ett gränssnitt mellan användaren och de maskiner och program som slutanvändaren använder. Just http är till för datakommunikation mellan olika enheter på WWW, World Wide Web, och är därav ett kommunikationsprotokoll. Den data man skickar är främst webbsidor och för att skicka allt detta används tekniken hypermedia som är en generalisering av hypertext. Det fungerar på samma sätt som hypertext men istället för att bara text är sammanlänkade är även ljud, grafik och annat också sammanlänkande. Detta gör att man kan som användare välja var man vill gå utan att behöva följa något linjärt mönster.</p>
-        <h2 class="sanna_indent">HTTPS</h2>
+        <h2 class="sanna_indent">HTTPS</h2> <!-- Egen class -->
         <p class="sanna_indent">Https står för Hypertext Transfer Protocol Secure och är en säker väg för http-data. Detta sker genom att transportvägen är krypterad vilket innebär att ingen annan ska kunna läsa datan förutom de som har nyckeln för att datan ska bli läsningsbar. Https används ofta när man vill skydda sin integritet som till exempel vid inloggning eller annan hantering av privat information. Krypteringen gör att ingen tredje part ska kunna ta del av information. Det är även viktigt för företag när de ska överföra betalningar eller annan känslig data. </p>
     </div>
 
@@ -96,10 +96,10 @@
         </p>
     </div>
 
-    <div class="container">
+    <div class="container"> 
         <hr>
-        <div class="row">
-            <div class="col">
+        <div class="row"> 
+            <div class="col"> 
                 <h2>Flexbox</h2>
                 <p>Flexbox är ett endimensionellt layout system som gör en webbsida responsive på ett smidigt sätt. Det är ett mycket bättre alternativ än att använda float  och olika typer av positionering vilket inte blir helt anpassningsbara. När man använder flexbox har man så kallade parent element och child element. Parent elementet kallar man för container och det är det elementet som är runt child elementen som man kallar för item. Med flexbox justerar och fördelar man containers i det utrymmet man har. Alltså ändras container:ns storlek beroende på det utrymme som finns. För att göra ett element till ett flexbox element sätter man display: flex; i css:n.
                 </p>
