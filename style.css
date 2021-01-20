@@ -10,13 +10,14 @@ h1, h2{
     font-family: champagne_limousines_bold; /* Egen hämtad font */
 }
 
-/* För all text jag använder*/
+/* För alla typer av text jag använder*/
 h1, h2, p{
     color: black;
 }
 
+/* Samma färg som backgrunden (i body) för att de ska smälta in */
 .container{
-    background-color: rgb(173, 101, 209);
+    background-color: rgb(173, 101, 209); 
 }
 
 a{
@@ -28,7 +29,7 @@ a:hover{
 }
 
 footer{
-    text-align: center;
+    text-align: center; 
     padding-bottom: 2%;
 }
 
